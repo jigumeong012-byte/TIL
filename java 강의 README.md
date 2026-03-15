@@ -25,14 +25,14 @@ public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
-}
+}```
 설명
 
 class : Java 프로그램의 기본 단위
 
 main() : 프로그램이 실행될 때 시작되는 메서드
 
-System.out.println() : 콘솔에 문자열을 출력하는 명령어```
+System.out.println() : 콘솔에 문자열을 출력하는 명령어
 
 3. 주석 (Comment)
 
