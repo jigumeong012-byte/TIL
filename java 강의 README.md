@@ -16,7 +16,7 @@ Java 프로그램을 개발하려면 **JDK와 개발 도구**가 필요하다.
 
 ---
 
-# 2. Hello World
+## 2. Hello World
 
 Java 프로그램의 기본 구조
 
@@ -34,7 +34,7 @@ main() : 프로그램이 실행될 때 시작되는 메서드
 
 System.out.println() : 콘솔에 문자열을 출력하는 명령어
 
-3. 주석 (Comment)
+## 3. 주석 (Comment)
 
 주석은 코드 설명이나 기록을 위해 사용한다.
 주석은 프로그램 실행에는 영향을 주지 않는다.
@@ -45,7 +45,7 @@ System.out.println() : 콘솔에 문자열을 출력하는 명령어
 여러 줄
 주석
 */
-4. 변수 (Variable)
+## 4. 변수 (Variable)
 
 변수는 데이터를 저장하는 메모리 공간이다.
 
@@ -57,7 +57,7 @@ String name = "Tom";
 
 int number = 10;
 double score = 95.5;
-5. 변수 타입 (Data Type)
+## 5. 변수 타입 (Data Type)
 
 Java에서 사용하는 기본 자료형
 
@@ -72,7 +72,7 @@ int age = 20;
 double height = 175.5;
 boolean isStudent = true;
 String name = "Kim";
-6. 변수 명명 규칙
+## 6. 변수 명명 규칙
 
 변수 이름을 지을 때 다음 규칙을 따라야 한다.
 
@@ -90,7 +90,7 @@ Java에서는 camelCase 방식을 사용한다.
 studentAge
 userName
 totalScore
-7. 연산자 (Operator)
+## 7. 연산자 (Operator)
 
 연산자는 값을 계산하거나 비교할 때 사용한다.
 
@@ -149,7 +149,7 @@ if (age > 18) {
 if (age > 18 && age < 30) {
     System.out.println("20대");
 }
-8. 조건문 (Condition)
+## 8. 조건문 (Condition)
 
 조건에 따라 다른 코드를 실행한다.
 
@@ -205,7 +205,7 @@ switch(num) {
 int age = 20;
 
 String result = (age >= 20) ? "성인" : "미성년자";
-9. 반복문 (Loop)
+## 9. 반복문 (Loop)
 
 반복문은 같은 코드를 여러 번 실행할 때 사용한다.
 
@@ -287,7 +287,7 @@ for(int i = 0; i < 3; i++) {
         System.out.println(i + " " + j);
     }
 }
-10. 스코프 (Scope)
+## 10. 스코프 (Scope)
 
 스코프는 변수가 사용 가능한 범위를 의미한다.
 
@@ -323,7 +323,7 @@ void test() {
 
 해당 블록 안에서만 사용 가능
 
-11. 형변환 (Type Casting)
+## 11. 형변환 (Type Casting)
 
 데이터 타입을 다른 타입으로 변환하는 것
 
@@ -355,7 +355,7 @@ double result = a / b;
 결과
 → 정수와 실수 연산이므로 실수 결과가 나온다.
 
-정리
+## 정리
 
 Java 기초에서 배우는 주요 개념
 
