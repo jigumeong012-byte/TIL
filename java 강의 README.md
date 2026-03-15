@@ -20,12 +20,12 @@ Java 프로그램을 개발하려면 **JDK와 개발 도구**가 필요하다.
 
 Java 프로그램의 기본 구조
 
-```java
+java
 public class Hello {
     public static void main(String[] args) {
         System.out.println("Hello World");
     }
-}```
+}
 설명
 
 class : Java 프로그램의 기본 단위
