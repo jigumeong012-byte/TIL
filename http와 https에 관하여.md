@@ -1,4 +1,4 @@
-# HTTP와 HTTPS의 차이
+# HTTP와 HTTPS
 
 ## 1. HTTP
 
