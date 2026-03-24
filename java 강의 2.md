@@ -7,8 +7,8 @@ Scanner는 사용자로부터 입력을 받을 때 사용하는 클래스이다.
 ```java
 Scanner scanner = new Scanner(System.in);
 
-int num = scanner.nextInt();      // 정수 입력
-String str = scanner.nextLine(); // 문자열 입력
+int num = scanner.nextInt();
+String str = scanner.nextLine();
 ```
 
 ### 설명
