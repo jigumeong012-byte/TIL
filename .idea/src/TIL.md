@@ -131,7 +131,7 @@ JSON이 가볍고 읽기 쉬워서, RESTful API의 기본 데이터 포맷으로
 5. RESTful API 설계 모범 사례  
    * 명확한 URI 설계  
      * /users, /users/123처럼 자원을 계층적으로 표현하세요.  
-        동사는 넣지 말고(예: /getUsers X), 자원 이름만 사용하세요(예: /users O).  
+        동사는 넣지 말고(예: /getUsers ❎), 자원 이름만 사용하세요(예: /users ✅).  
      * 적절한 HTTP 메서드 사용  
      & 조회는 GET, 생성은 POST 등 작업에 맞게 사용하세요.  
    * 버전 관리  
